@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_container {
+    background-color: #35A66F;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner_container {
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(to bottom, #0c1d38 0%, #1a3158 100%);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.lotteryPuller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+label {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+input[type] {
+    background: transparent;
+}
+
+.snow {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.ball1 {
+    bottom: -235px;
+    left: -240px;
+    width: 650px;
+    height: 450px;
+}
+
+.ball2 {
+    bottom: -115px;
+    left: 100px;
+    width: 420px;
+    height: 280px;
+}
+
+.ball3 {
+    bottom: -220px;
+    left: 320px;
+    width: 400px;
+    height: 400px;
+}
